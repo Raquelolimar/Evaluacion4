@@ -17,12 +17,12 @@ print(float)
 edad= 18
 print(edad)
 
+
 from decimal import Decimal
-
-
-valor= 0.30
-print(valor)
-
+game= (100.50)
+comission_rate = (0.10)
+game= (game * comission_rate)
+print(game)
 
 eat= {
 
@@ -33,11 +33,14 @@ eat= {
 }
 print(eat)
 
+
+
+
 2
 import math
 
 float = 3.14
-print(round(float))
+print(math.ceil(float))
 
 3
 
@@ -54,7 +57,7 @@ print(tupla[1])
 
 6
 
-list.insert (3, 'Raquel')
+list.append ('Raquel')
 print(list)
 
 7
